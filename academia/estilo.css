@@ -1,0 +1,117 @@
+/* Estilização do corpo da página */
+
+body {
+    background-color: #eeeeee;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #222222;
+}
+
+
+/* Cabeçalho */
+
+header {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* Título principal */
+
+h1 {
+    font-size: 35px;
+}
+
+
+/* Títulos */
+
+h2 {
+    color: #d35400;
+    font-size: 28px;
+}
+
+h3 {
+    color: #444444;
+    font-size: 21px;
+}
+
+
+/* Menu */
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+}
+
+
+/* Efeito quando passar o mouse no link */
+
+nav a:hover {
+    color: #ff8c00;
+}
+
+
+/* Conteúdo */
+
+main {
+    background-color: white;
+    width: 80%;
+    margin: 30px auto;
+    padding: 25px;
+    text-align: center;
+}
+
+
+/* Parágrafos */
+
+p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+/* Imagens */
+
+img {
+    width: 400px;
+    max-width: 90%;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+
+/* Links */
+
+main a {
+    color: #d35400;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/* Efeito hover nos links */
+
+main a:hover {
+    color: #ff8c00;
+    text-decoration: underline;
+}
+
+
+/* Rodapé */
+
+footer {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
